@@ -1,0 +1,69 @@
+# .project metadata for Podman Desktop
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "podman-desktop"
+name: "Podman Desktop"
+description: "An open-source tool for developers to work with containers and Kubernetes with an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from the desktop."
+type: "project"
+project_lead: "benoitf" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#podman-desktop"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/337" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/podman-desktop/podman-desktop"
+
+website: "https://podman-desktop.io/"
+
+artwork: "https://landscape.cncf.io/logos/podman-desktop.svg"
+
+adopters:
+  path: "https://github.com/podman-desktop/podman-desktop/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "podman-desktop/podman-desktop"
+
+
+security:
+  policy:
+    path: "https://github.com/podman-desktop/podman-desktop/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/podman-desktop/podman-desktop/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/podman-desktop/podman-desktop/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/podman-desktop/podman-desktop/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/podman-desktop/podman-desktop/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/podman-desktop/podman-desktop/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 91/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 82
